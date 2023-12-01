@@ -9,7 +9,7 @@ const service = {
     res.json({
       data: users,
       status: 'success',
-      message: 'Get all user success'
+      message: 'Get all success'
     });
   },
   getDetail: (req, res) => {
